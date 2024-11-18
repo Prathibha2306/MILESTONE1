@@ -11,7 +11,11 @@ const HomePage = () => {
       
       <section className="about-service">
         <h2>About Our Food Service</h2>
-        <p>We are passionate about delivering delicious and healthy meals right to your doorstep. Our menu is designed with diverse tastes in mind, offering a variety of fresh, locally-sourced dishes that are sure to please everyone.</p>
+        <p>At Classic Cravings, we're dedicated to providing mouth-watering and nutritious meals that cater to various dietary preferences and requirements.
+Our chefs carefully craft each dish using only the finest ingredients, sourced from local farmers and suppliers to ensure optimal flavor and freshness.
+From classic comfort food to international cuisine and innovative vegan options, our diverse menu offers something for every palate and lifestyle.
+With convenient delivery services, you can enjoy our delectable meals in the comfort of your own home or office.
+Whether you're a busy professional, a health-conscious individual, or simply someone who loves great food, we're here to bring happiness to your table.</p>
       </section>
 
       <section className="menu-highlights">
@@ -23,17 +27,17 @@ const HomePage = () => {
             <p>A fusion delight combining fragrant fried rice with a medley of crispy Manchurian balls, made with vegetables and protein options.</p>
           </div>
           <div className="menu-item">
-            <img src="/image/image2.png" alt="Crunchy Delight Combo" />
+            <img src="./image/image2.png" alt="Crunchy Delight Combo" />
             <h3>Crunchy Delight Combo</h3>
             <p>A delightful contrast between the bold, savory chicken fries and the classic, comforting French fries.</p>
           </div>
           <div className="menu-item">
-            <img src="/image/image3.png" alt="Cheezy Onion Rings" />
+            <img src="./image/image3.png" alt="Cheezy Onion Rings" />
             <h3>Cheezy Onion Rings</h3>
             <p>The combination of crispy onion, stretchy cheese, and flavorful batter is irresistible.</p>
           </div>
           <div className="menu-item">
-            <img src="/image/image4.png" alt="The Smoky Volcano" />
+            <img src="./image/image4.png" alt="The Smoky Volcano" />
             <h3>The Smoky Volcano</h3>
             <p>A masterful blend of smoky flavors and spicy undertones, perfect for heat lovers.</p>
           </div>
