@@ -1,0 +1,43 @@
+/* About Page */
+.about-page {
+    padding: 40px 20px;
+    background: #f4f4f4;
+    text-align: center;
+  }
+  
+  .about-page h2 {
+    margin-bottom: 20px;
+  }
+  
+  .about-page p {
+    max-width: 800px;
+    margin: 0 auto 20px;
+  }
+  
+  .about-page .team {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .team-member {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 250px;
+  }
+  
+  .team-member img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .team-member h4 {
+    margin: 10px 0;
+  }
+  
