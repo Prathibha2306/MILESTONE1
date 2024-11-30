@@ -1,43 +1,128 @@
-/* About Page */
 .about-page {
-    padding: 40px 20px;
-    background: #f4f4f4;
-    text-align: center;
+  padding: 60px 20px;
+  background: #f4f4f4;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+}
+
+.about-page h1 {
+  font-size: 2.5em;
+  color: #4CAF50;
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+.about-page h2 {
+  font-size: 1.8em;
+  color: #333;
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+
+.about-page p {
+  max-width: 800px;
+  margin: 0 auto 30px;
+  font-size: 1.1em;
+  line-height: 1.6;
+  color: #666;
+}
+
+.about-page .team {
+  margin-top: 40px;
+}
+
+.about-page .team h2 {
+  font-size: 1.8em;
+  color: #333;
+  margin-bottom: 40px;
+}
+
+.about-page .team-members {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.team-member {
+  background: #fff;
+  border-radius: 10px;
+  padding: 25px;
+  width: 280px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+  overflow: hidden;
+}
+
+.team-member:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.team-member img {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  margin-bottom: 20px;
+  border: 3px solid #4CAF50;
+}
+
+.team-member h3 {
+  margin: 5px 0;
+  font-size: 1.4em;
+  font-weight: 600;
+  color: #333;
+}
+
+.team-member p {
+  color: #666;
+  font-size: 1em;
+}
+
+.about-page .unique-features {
+  background: #f9f9f9;
+  padding: 30px 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 40px;
+}
+
+.about-page .unique-features h2 {
+  font-size: 1.8em;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.about-page .unique-features p {
+  font-size: 1.1em;
+  color: #666;
+  line-height: 1.6;
+  margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+  .about-page h1 {
+    font-size: 2em;
   }
-  
+
   .about-page h2 {
-    margin-bottom: 20px;
+    font-size: 1.5em;
   }
-  
-  .about-page p {
-    max-width: 800px;
-    margin: 0 auto 20px;
+
+  .team-members {
+    flex-direction: column;
+    align-items: center;
   }
-  
-  .about-page .team {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    flex-wrap: wrap;
-  }
-  
+
   .team-member {
-    background: #fff;
-    border: 1px solid #ddd;
-    border-radius: 8px;
+    width: 90%;
+    margin-bottom: 30px;
+  }
+
+  .about-page .unique-features {
     padding: 20px;
-    width: 250px;
   }
-  
-  .team-member img {
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
-    object-fit: cover;
-    margin-bottom: 10px;
-  }
-  
-  .team-member h4 {
-    margin: 10px 0;
-  }
-  
+}

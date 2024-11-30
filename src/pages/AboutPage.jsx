@@ -27,18 +27,17 @@ const AboutPage = () => {
         <h2>Meet Our Team</h2>
         <div className="team-members">
           <div className="team-member">
-            <img src="chef1.jpg" alt="Head Chef" />
+            <img src="/image/Lavigne.jpg" alt="Head Chef" />
             <h3>John Doe</h3>
             <p>Head Chef</p>
             <p>With over 20 years of experience, Chef John creates magic in the kitchen with his unique flavors and dedication to excellence.</p>
           </div>
           <div className="team-member">
-            <img src="manager1.jpg" alt="Manager" />
+            <img src="/image/new manager.png" alt="Manager" />
             <h3>Jane Smith</h3>
             <p>Manager</p>
             <p>Jane ensures that every guest feels at home and that operations run smoothly. She’s the heart and soul of our customer service.</p>
           </div>
-          {/* Add more team members as needed */}
         </div>
       </section>
 

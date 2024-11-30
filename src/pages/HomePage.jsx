@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './HomePage.css'; 
 
 const HomePage = () => {
@@ -11,11 +12,11 @@ const HomePage = () => {
       
       <section className="about-service">
         <h2>About Our Food Service</h2>
-        <p>At Classic Cravings, we're dedicated to providing mouth-watering and nutritious meals that cater to various dietary preferences and requirements.
+        <h4>At Classic Cravings, we're dedicated to providing mouth-watering and nutritious meals that cater to various dietary preferences and requirements.
 Our chefs carefully craft each dish using only the finest ingredients, sourced from local farmers and suppliers to ensure optimal flavor and freshness.
 From classic comfort food to international cuisine and innovative vegan options, our diverse menu offers something for every palate and lifestyle.
 With convenient delivery services, you can enjoy our delectable meals in the comfort of your own home or office.
-Whether you're a busy professional, a health-conscious individual, or simply someone who loves great food, we're here to bring happiness to your table.</p>
+Whether you're a busy professional, a health-conscious individual, or simply someone who loves great food, we're here to bring happiness to your table.</h4>
       </section>
 
       <section className="menu-highlights">
@@ -45,14 +46,15 @@ Whether you're a busy professional, a health-conscious individual, or simply som
       </section>
 
       <section className="special-offers">
-        <h2>Special Offers</h2>
-        <p>Get 20% off your first order!</p>
-        <button className="cta-button">Order Now</button>
-      </section>
+      <h2>Special Offers</h2>
+      <p>Get 20% off your first order!</p>
+      <Link to="menu" className="cta-button">
+        Order Now
+      </Link>
+    </section>
 
       <footer className="footer">
         <div className="social-media">
-          {/* Social media icons here */}
         </div>
         <p>&copy; 2024@Classic Cravings. All rights reserved.</p>
       </footer>
